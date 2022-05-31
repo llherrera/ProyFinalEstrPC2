@@ -21,3 +21,6 @@ Colocamos el request en POST y la dirección localhost:3000/crearUsuario. En el 
 "clave": "ingrese clave",
 "idEvento": "ingrese idEvento"
 ```
+Esto nos devolverá un "OK" si la creación de usuario fue exitosa. En caso contrario, nos devolverá un "NOK"
+* Autenticación de usuario
+Colocamos el request en GET y la dirección ```localhost:3000/autenticar/:nombreDeUsuario/:clave/:idEvento```, donde ":nombreDeUsuario" será reemplazado por el usuario que será autenticado, ":clave" igualmente será reemplazada por la clave del usuario a autenticar, y ocurre lo mismo con ":idEvento".
