@@ -12,3 +12,12 @@ docker-compose up
 Con esto construimos e iniciamos la aplicación.
 ## Funcionalidades
 Nos dirijimos a insomnia REST para probar la aplicación.
+* Conexión con la base de datos
+Esto ocurre de forma automatica al ejecutar la API, nos arroja un "OK" una vez lograda la conexión.
+* Creación de usuario
+Colocamos el request en POST y la dirección localhost:3000/crearUsuario. En el body del request, en formato JSON, ponemos los parametros de:
+```
+"nombreDeUsuario": "ingrese nombre",
+"clave": "ingrese clave",
+"idEvento": "ingrese idEvento"
+```
