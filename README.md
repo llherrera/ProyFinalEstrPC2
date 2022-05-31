@@ -32,9 +32,9 @@ Esto nos devolverá la id del usuario que ha sido autenticado. En caso contrario
 Colocamos el request en ```GET``` y la dirección ```localhost:3000/borrarUsuarios```, esto borrará todos los usuarios en la base de datos. Para la comprobación de esto, se devuelve la colección de usuarios antes de ser borrada y después del borrado por medio de la consola.
 
 * Cargar usuarios por medio de archivo CSV
-Colocamos el request en ```POST``` y la dirección ```localhost:3000/cargarCsv```. Adicionalmente, en el request cargamos el archivo CSV que se quiere mandar.
+{Colocamos el request en ```POST``` y la dirección ```localhost:3000/cargarCsv```. Adicionalmente, en el request cargamos el archivo CSV que se quiere mandar.
 ```
 nombreDeUsuario,clave,idEvento
 ```
 Ese debe ser el formato del CSV que se envie.
-Cuando mandemos el request, se crearan los usuarios correspondientes al archivo y por cada usuario que se cree se devolverá un "OK"
+Cuando mandemos el request, se crearan los usuarios correspondientes al archivo y por cada usuario que se cree se devolverá un "OK"}
