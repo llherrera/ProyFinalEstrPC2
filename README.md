@@ -1,4 +1,4 @@
-# Docker Web API_
+# Docker Web API
 ## Lenguaje y Base de datos
-Javascript con nodeJS
+Javascript con nodeJS.
 MongoDB
