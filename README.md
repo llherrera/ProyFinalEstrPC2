@@ -33,8 +33,8 @@ Colocamos el request en ```GET``` y la dirección ```localhost:3000/borrarUsuari
 
 * Cargar usuarios por medio de archivo CSV
 Colocamos el request en ```POST``` y la dirección ```localhost:3000/cargarCsv```. Adicionalmente, en el request cargamos el archivo CSV que se quiere mandar.
-```
-nombreDeUsuario,clave,idEvento
-```
-Ese debe ser el formato del CSV que se envie.
-Cuando mandemos el request, se crearan los usuarios correspondientes al archivo y por cada usuario que se cree se devolverá un "OK"
+  ```
+  nombreDeUsuario,clave,idEvento
+  ```
+  Ese debe ser el formato del CSV que se envie.\
+  Cuando mandemos el request, se crearan los usuarios correspondientes al archivo y por cada usuario que se cree se devolverá un "OK"
